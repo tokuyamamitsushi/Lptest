@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="#">
+  <link rel="appple-touch-icon" href="#">
+  <meta name="description" content="#">
+  <title>bootstrap</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  body {
+    background-color: #efefef;
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  #header {
+
+    height: 50px;
+  }
+
+  .main {
+    background-color: white;
+  }
+
+  .sidebar {
+    background-color: white;
+    height: auto;
+    text-align: left;
+  }
+
+  .panel-title,
+  .panel-heading {
+    font-size: 1.7rem;
+  }
+
+  .panel-body li {
+    list-style-type: none;
+    font-size: 1.6rem;
+  }
+
+  .main-head {
+    background: #424242;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+  }
+
+  .main-head h3 {}
+
+  table th {
+    width: 10rem;
+  }
+</style>
+
+<body class="bg-light">
+  <div class="row">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <!-- スマートフォンサイズで表示されるメニューボタンとテキスト -->
+        <div class="navbar-header col-md-4">
+          <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#nav-menu-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- タイトルなどのテキスト -->
+          <a class="navbar-brand " href="#">カイロプラクティック</a>
+        </div>
+        <!-- グローバルナビの中身 -->
+        <div class="collapse navbar-collapse col-md-8" id="nav-menu-2">
+          <!-- リンク -->
+          <div class="container">
+            <div class="row">
+              <div class="navbar-text navbar-right">
+                <ul class="list-inline">
+                  <li src="#"><a href="#" class="navbar-link" style="margin:0 8px;">ビフォー・アフター</a></li>
+                  <li src="#"><a href="#" class="navbar-link" style="margin:0 8px;">口コミ・評判</a></li>
+                  <li src="#"><a href="#" class="navbar-link" style="margin:0 8px;">スタッフ紹介</a></li>
+                  <li src="#"><a href="#" class="navbar-link" style="margin:0 8px;">メニュー・料金</a></li>
+                  <li src="#"><a href="#" class="navbar-link" style="margin:0 8px;">Q&A</a></li>
+                  <li src="#"><a href="#" class="navbar-link" style="margin:0 8px;">地図・アクセス</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="main container col-sm-7" style="padding-top:10px;">
+        <div class="main-head">
+          <h3>さいたま市のダイエット専門店</h3>
+        </div>
+        <h2>短期間で大幅にダイエットするなら当店にお任せください!</h2>
+
+        <div class="thumbnail" style="height:200px; width:100%;">
+          <img src=#>
+        </div>
+        <div class="pull-right">※効果には個人差があります。</div>
+        <div class="bg-light"
+          style="height:50px; border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle;">
+          とくやま整体院の特徴</div>
+        <div>初回カウンセリング無料 / 1,000名の成功実績 / 土曜も受付 / お子様連れ可 / 駐車場あり / 女性スタッフ在籍 / 予約優先 / 当日受付可 / 男性歓迎</div>
+        <ul style="list-style-type:none; margin:10px 0;">
+          <li>
+            <span class="glyphicon glyphicon-map-marker"></span>
+            <a href="#">埼玉県さいたま市緑区1-1-1</a>
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-send"></span>
+            <a href="#">JR浦和駅から徒歩15分</a>
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-time"></span>
+            <a href="#">9:00～12:30/15:30～19:00</a>
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-calendar"></span>
+            <a href="#">日曜、祝日、土曜午後</a>
+          </li>
+        </ul>
+        <div class="bg-light"
+          style="height:50px; border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle;">
+          とくやま整体院が選ばれる3つの理由</div>
+        <ul style="list-style-type:none; margin:10px 0;">
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            とにかく結果重視のダイエット専門店
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            圧倒的なダイエットの成功実績
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            ダイエット後のアフターケアが充実
+          </li>
+
+        </ul>
+        <div class="thumbnail" style="height:200px; width:100%;">
+          <img src=#>
+        </div>
+        <div class="card">
+
+          <div class="card-header bg-danger text-default">【初回限定】短期集中！健康的に美しく痩せたい方へ</div>
+          <div class="card-body">
+            <div class="text-danger">ダイエット 無料カウンセリング（約60分）実施中！</div>
+            <div class="thumbnail pull-left" style="height:100px; width:30%;">
+              <img src=#>
+            </div>
+            <div>ダイエットの無料カウンセリングでは、多数のダイエットサポート実績をもとに、あなたのご希望にぴったりのダイエットをお伝えしています。
+              今まで何をやっても痩せなかった方、リバウンドしてあきらめている方、食欲が止まらない方、運動が苦手な方、産後太りを解消したい方は、
+              まずはメールかお電話で「無料カウンセリングの予約をお願いしたいのですが」とお伝えください。
+              <br>
+              【無料カウンセリングの内容】<br>
+              1.ダイエット相談（お悩み、目標体重など）<br>
+              2.体質チェック（体重、体脂肪測定）<br>
+              3.カウンセリング（お悩み、痩せる方法）<br>
+              4.あなたに合ったダイエット方法紹介<br>
+              5.よし、やってみよう！と思ったらダイエットスタート<br>
+              ※「私にはムリ」と感じたらお断りください。<br>
+              カウンセリングは無料です。</div>
+          </div>
+          <div class="text-right text-danger" style="padding:5px 5px;">利用期限：2019年12月末日まで</div>
+        </div>
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>クーポン・メニューの一覧</button>
+        <div class="bg-light"
+          style="height:50px; border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          今すぐご連絡ください</div>
+        ダイエットやリバウンドでお悩みなら今すぐ、メールか電話でご連絡ください。<br>
+        <button type="button" class="btn btn-danger"><span
+            class="glyphicon glyphicon-envelope"></span>メールで問い合わせる</button>
+        <button type="button" class="btn btn-danger"><span
+            class="glyphicon glyphicon-earphone"></span>03-####-####</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>NHK BSプレミアムで耳つぼが紹介されました。</h3>
+        </div>
+        <div class="thumbnail pull-left" style="height:200px; width:50%;">
+          <img src=#>
+        </div>
+        NHKBSプレミアム「美と若さの新常識 カラダのヒミツ 漢方で無理なくスリム＆ビューティー」で耳ツボの取材を受けました。
+        番組では耳ツボとダイエットの話題や、耳ツボの科学的な説明など大きく取り上げられ、放映されました。
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>メディアの掲載実績を見る</button>
+        <div class="main-head" style="margin:5px 0">
+          <h3>お知らせ</h3>
+        </div>
+        <ul style="list-style-type:none; margin:10px 0;">
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            お知らせ記事1
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            お知らせ記事2
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            お知らせ記事3
+          </li>
+
+        </ul>
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>お知らせの一覧を見る</button>
+        <div class="main-head" style="margin:5px 0">
+          <h3>このようなことでお悩みではありませんか</h3>
+        </div>
+        <ul style="list-style-type:none; margin:10px 0;">
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            食欲やストレスに負けてすぐに食べてしまう
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            色々なダイエットを試して結局リバウンドしてしまった
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            無理な食事制限やきつい運動などで痩せなかった
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            年齢や遺伝・体質で痩せにくいと思っている
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            痩せたいけど激しい運動はしたくない
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-ok-sign"></span>
+            医者から痩せるように言われている
+          </li>
+        </ul>
+        <div class="text-light"
+          style="height:50px; border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          とくやま整体院の対応症状</div>
+        肥満・メタボ / 産後太り / 下半身太り / ぽっこりお腹 など
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>耳つぼダイエットの成功事例を紹介します</h3>
+        </div>
+        <div class="text-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          耳つぼダイエット：こんなに痩せて本当にビックリ</div>
+        <div class="thumbnail pull-left" style="height:300px; width:100%;">
+          <img src=#>
+        </div>
+        <h3>体重：70.0kg → 60.1kg（2ヶ月で-9.9kg</h3>
+        <span style="font-wight:bold;">ダイエット成功体験談</span>
+        2ヶ月でこんなに痩せて本当にビックリです。<br>
+        まだまだ頑張ります！<br>
+        （M様 40代主婦）<br>
+        <div class="text-right">※効果には個人差があります</div>
+        <div class="text-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          耳つぼダイエット：こんなに痩せて本当にビックリ</div>
+        <div class="thumbnail pull-left" style="height:300px; width:100%;">
+          <img src=#>
+        </div>
+        <h3>体重：70.0kg → 60.1kg（2ヶ月で-9.9kg</h3>
+        ウエスト：84cm → 70cm（-14cm）<br>
+        体脂肪率：34％ → 25％（-9％）<br>
+        <span style="font-wight:bold;">ダイエット成功体験談</span>
+        2ヶ月でこんなに痩せて本当にビックリです。<br>
+        まだまだ頑張ります！<br>
+        （M様 40代主婦）<br>
+        <div class="text-right">※効果には個人差があります</div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          耳つぼダイエット：こんなに痩せて本当にビックリ</div>
+        <div class="thumbnail pull-left" style="height:300px; width:100%;">
+          <img src=#>
+        </div>
+        <h3>体重：70.0kg → 60.1kg（2ヶ月で-9.9kg</h3>
+        ウエスト：84cm → 70cm（-14cm）<br>
+        体脂肪率：34％ → 25％（-9％）<br>
+        <span style="font-wight:bold;">ダイエット成功体験談</span>
+        2ヶ月でこんなに痩せて本当にビックリです。<br>
+        まだまだ頑張ります！<br>
+        （M様 40代主婦）<br>
+        <div class="text-right">※効果には個人差があります</div>
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>ビフォーアフターをもっと見る</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>当店で人気のネイルサロンをご紹介します</h3>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="thumbnail" style="height:200px;width:100%; ">
+                <img src=#>
+
+              </div>
+              初回￥8,900
+            </div>
+            <div class="col-md-3">
+              <div class="thumbnail" style="height:200px;width:100%;">
+                <img src=#>
+
+              </div>
+              初回¥8,500
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="thumbnail" style="height:200px;width:100%; ">
+                <img src=#>
+
+              </div>
+              初回￥7,900　初回￥7,900　初回￥7,900
+
+
+            </div>
+            <div class="col-md-3">
+              <div class="thumbnail" style="height:200px;width:100%;">
+                <img src=#>
+
+              </div>
+              初回￥7,100
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>ネイル写真をもっと見る</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>お客様の喜びの声が信頼の証です</h3>
+        </div>
+        <div class="thumbnail" style="height:200px;width:100%;">
+          <img src=#>
+
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          肥満：減らなかった体重を落とす事ができました</div>
+        電話でカウンセリングの予約をお願いした時に、感じが良く、とても親切に対応していただきました。<Br>
+        食事の食べる順番やダイエットにいいメニューの作り方などを教えていただいて、とても参考になりました。<Br>
+        お陰様で、なかなか減らなかった体重を落とす事ができてとても嬉しかったです。<br>
+        I.K様 53歳 主婦<br>
+        <div class="text-right">※効果には個人差があります</div>
+        <div class="text-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          肥満：減らなかった体重を落とす事ができました</div>
+        電話でカウンセリングの予約をお願いした時に、感じが良く、とても親切に対応していただきました。<Br>
+        食事の食べる順番やダイエットにいいメニューの作り方などを教えていただいて、とても参考になりました。<Br>
+        お陰様で、なかなか減らなかった体重を落とす事ができてとても嬉しかったです。<br>
+        I.K様 53歳 主婦<br>
+        <div class="text-right">※効果には個人差があります</div>
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>口コミ・評判をもっと見る</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>耳つぼダイエットとは？</h3>
+        </div>
+        耳にある食欲やストレスのツボを刺激することで、無理なく自然に食欲を抑えられるダイエット法です。
+        基礎代謝を上げ、脂肪が燃焼しやすい身体づくりを目指します。
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          他のダイエットとの違い</div>
+        <div class="thumbnail pull-left" style="height:100px;width:30%;">
+          <img src=#>
+
+        </div>
+        違い1．耳ツボの刺激で自然に食欲を抑え、ストレスが少ない<br>
+        違い2．1日3度の食事を取り、無理な食事制限をしない<br>
+        違い3．きつい運動は一切なし、誰でも無理なく続けられる<br>
+        違い4．専門家による個別の栄養指導・サポートが受けられる<br>
+        違い5．リバウンドしにくい体質作りが可能<br>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>とくやま整骨院が選ばれる3つの理由</h3>
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          理由１.ダイエットの成功実績があるから</div>
+        とにかく結果重視の当院の豊富なダイエット成功例、お客様の声をご覧いただき、ダイエットできるかどうかと不安に思っている方や、迷っている方もどうぞ安心してお越しください。
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          理由２.ダイエット後のアフターケアが充実しているから</div>
+        ダイエット終了後の一番の心配がリバウンドですが、ダイエット指導歴10年以上の当院独自のノウハウがあるので安心です。
+        また、卒業後は無料チェックや健康情報の配信などアフターケアも万全です。
+        <div class="main-head" style="margin:5px 0">
+          <h3>ダイエットに関するお悩みならお任せください</h3>
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          院長：山田 太郎（やまだ たろう）</div>
+        <div class="container">
+          <div class="row">
+            <div class="thumbnail col-md-3" style="height:200px;">
+              <img src=#>
+
+            </div>
+            <div class="col-md-3">はじめまして、院長の長谷川です。
+              数ある整体院の中から、とくやま整体院のホームページをご覧いただき、ありがとうございます。
+              ダイエットに関するお悩みを解消したい方は、ご質問・ご相談等どのような内容でも構いませんので、気軽にお問い合わせください。</div>
+          </div>
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          保有資格</div>
+        ・日本痩身医学協会認定セミナー講師<br>
+        ・柔道整復師/鍼灸師/トレーナー<br>
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>スタッフ紹介を見る</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>今月のお得なクーポン</h3>
+        </div>
+        <div class="card">
+
+          <div class="card-header bg-danger text-white">【初回限定】短期集中！健康的に美しく痩せたい方へ</div>
+          <div class="card-body">
+            <div class="text-danger">ダイエット 無料カウンセリング（約60分）実施中！</div>
+            <div class="thumbnail pull-left" style="height:100px; width:30%;">
+              <img src=#>
+            </div>
+            <div>ダイエットの無料カウンセリングでは、多数のダイエットサポート実績をもとに、あなたのご希望にぴったりのダイエットをお伝えしています。
+              今まで何をやっても痩せなかった方、リバウンドしてあきらめている方、食欲が止まらない方、運動が苦手な方、産後太りを解消したい方は、
+              まずはメールかお電話で「無料カウンセリングの予約をお願いしたいのですが」とお伝えください。
+              <br>
+              【無料カウンセリングの内容】<br>
+              1.ダイエット相談（お悩み、目標体重など）<br>
+              2.体質チェック（体重、体脂肪測定）<br>
+              3.カウンセリング（お悩み、痩せる方法）<br>
+              4.あなたに合ったダイエット方法紹介<br>
+              5.よし、やってみよう！と思ったらダイエットスタート<br>
+              ※「私にはムリ」と感じたらお断りください。<br>
+              カウンセリングは無料です。</div>
+          </div>
+          <div class="text-right text-danger" style="padding:5px 5px;">利用期限：2017年8月末日まで</div>
+        </div>
+        <div class="card">
+
+          <div class="card-header bg-danger text-white">【初回限定 毎月10名様】骨盤の歪みや体型が気になる方へ</div>
+          <div class="panel-body">
+            <div class="text-danger">無料カウンセリング+骨盤矯正<br>
+              通常6,000円 → お試し価格 2,980円(税別)</div>
+            <div class="thumbnail pull-left" style="height:100px; width:30%;">
+              <img src=#>
+            </div>
+            <div>カウンセリングで、あなたの太ってしまった原因と痩せる秘密をお伝えします。<br>
+              更に、歪んだ骨盤を整えることで、内臓が正しい位置にもどると人気の骨盤矯正もできるお得なお試しコースになります。<br>
+              まずはメールかお電話で「無料カウンセリングと骨盤矯正の予約をお願いしたいのですが」とお伝えください。
+            </div>
+            <div class="text-right text-danger" style="padding:5px 5px;">利用期限：2017年8月末日まで</div>
+          </div>
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          メニュー・料金</div>
+        スプレッドシート埋め込み
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          今すぐご連絡ください</div>
+        ダイエットやリバウンドでお悩みなら今すぐ、メールか電話でご連絡ください。<br>
+        <button type="button" class="btn btn-danger"><span
+            class="glyphicon glyphicon-envelope"></span>メールで問い合わせる</button>
+        <button type="button" class="btn btn-danger"><span
+            class="glyphicon glyphicon-earphone"></span>03-####-####</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>LINE@友だち追加でプレゼント！</h3>
+        </div>
+        <div class="thumbnail" style="height:200px; width:100%;">
+          <img src=#>
+
+        </div>
+        友だち追加で「オプションメニュー」どれか1つをプレゼント！<br>
+
+        スマートフォンで下記の「友だち追加」ボタンを押して友だちリストに追加してください<br>
+        LINE@ID:@tokuyama<br>
+        <div class="thumbnail" style="height:80px; width:200px;">
+          <img src=#>
+
+        </div>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>お申し込みからダイエットスタートまでの流れ</h3>
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          １．最初にお電話か、メールで「無料カウンセリング」をご予約ください</div>
+        「はい、とくやま整体院です」と出ますので、「無料カウンセリングを予約したいのですが」とお伝えください。<br>
+        ご希望の日にち、時間をお伺いします。<br>
+
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          ２．無料カウンセリング</div>
+        現在の体重・体脂肪などの測定、お悩みの症状等の相談、ダイエット内容の説明、目標体重の設定、料金システム等を提示します。
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          ３．ダイエットスタート！</div>
+        「やってみよう！」決心したらいよいよ施術スタートです。<br>
+        目標体重まで徹底サポートします。<br>
+        （週1～2回通院される方が多いです）<br>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>よくある質問</h3>
+        </div>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          Q．痩せない人っていないんですか？</div>
+        当院で目標達成した施術の成功例は94％以上です。<br>
+        無料カウンセリングでは、ダイエット成功に必要な3つの秘訣をお伝えします。<br>
+        太ってしまった原因を明確にして、最適な目標計画を設定していきます。<br>
+        スタッフ全員が耳ツボ経験者の私たちが徹底サポートします。<br>
+        <div class="bg-light"
+          style="border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          Q．料金はいくらですか？</div>
+        肥満度・目標体重・期間によってプログラムを作成していきますので、初回無料カウンセリング時に料金目安をお伝えします。<br>
+        当院では、無理にお勧めすることはしておりませんので、安心してお越し下さい。
+        <button type="button" class="btn btn-default btn-lg btn-block"> <span
+            class="glyphicon glyphicon-chevron-down"></span>Q&Aをもっと見る</button>
+        <div class="bg-dark text-white" style="height:40px;margin:5px 0">
+          <h3>とくやま整体院について</h3>
+        </div>
+        <div class="thumbnail" style="height:200px; width:60%;">
+          <img src=#>
+
+        </div>
+        <div class="thumbnail" style="height:200px; width:60%;">
+          <img src=#>
+
+        </div>
+        <table class="table">
+          <tr>
+            <th>電話番号</th>
+            <td>03-0000-0000</td>
+          </tr>
+          <tr>
+            <th>住所</th>
+            <td>埼玉県さいたま市緑区1-1-1
+              <div class="thumbnail" style="height:200px; width:60%;">
+                <img src=#>
+
+              </div>
+
+            </td>
+          </tr>
+          <tr>
+            <th>アクセス</th>
+            <td>JR浦和駅から徒歩15分</td>
+          </tr>
+          <tr>
+            <th>受付時間</th>
+            <td>9:00～12:30/15:30～19:00</td>
+          </tr>
+          <tr>
+            <th>定休日</th>
+            <td>日曜、祝日、土曜午後</td>
+          </tr>
+          <tr>
+            <th>
+              特徴
+            </th>
+            <td>
+              初回カウンセリング無料 / 1,000名の成功実績 / 土曜も受付 / お子様連れ可 / 駐車場あり / 女性スタッフ在籍 / 予約優先 / 当日受付可 / 男性歓迎
+            </td>
+          </tr>
+        </table>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <tr class="active">
+              <th>受付時間</th>
+              <th>月</th>
+              <th>火</th>
+              <th>水</th>
+              <th>木</th>
+              <th>金</th>
+              <th>土</th>
+              <th>日</th>
+
+            <tr>
+              <th class="active">9:00~12:00</th>
+              <td>◯</td>
+              <td>◯</td>
+              <td>△</td>
+              <td>◯</td>
+              <td>◯</td>
+              <td>◯</td>
+              <td>×</td>
+
+            </tr>
+            <tr>
+              <th class="active">16:30~20:00</th>
+              <td>◯</td>
+              <td>◯</td>
+              <td>×</td>
+              <td>◯</td>
+              <td>◯</td>
+              <td>×</td>
+              <td>×</td>
+
+            </tr>
+          </table>
+          ○ 通常受付、△ 水曜午前は救急のみ受付、× 水土曜午後・日曜・祝日は定休日
+        </div>
+
+        <div class="main-head" style="margin:5px 0">
+          <h3>予約・問い合わせ</h3>
+        </div>
+        <div
+          style="background:#efefef;  border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          電話での予約･問い合わせ</div>
+        <h3>電話番号：048-000-0000</h3>
+        <ul style="list-style-type:none;">
+          <li>
+            <span class="glyphicon glyphicon-time"></span>
+            <a href="#">9:00～12:30/15:30～19:00</a>
+          </li>
+          <li>
+            <span class="glyphicon glyphicon-calendar"></span>
+            <a href="#">日曜、祝日、土曜午後</a>
+          </li>
+        </ul>
+        <div
+          style="background:#efefef;  border-left:5px solid orange;clear:both;padding-left:5px; font-size:1.5em; font-wight:bold; line-height:50px; vertical-align:middle; margin-top:20px; margin-bottom:20px;">
+          メールでの予約･問い合わせ</div>
+        下記の入力欄に必要事項を入力し「メールを送信する」ボタンをクリックしてください。<br>
+        予約・問い合わせ内容を確認後、電話またはメールにてご連絡差しあげます。<br>
+
+        ※<span class="text-danger">ご入力いただく予約日時は確定ではありません。</span>予約状況を確認後、当店から予約確定の連絡をいたします。<br>
+
+        ※<span class="text-danger">ネットからの当日予約は受け付けておりません。</span>お急ぎの場合は、電話にて予約・問い合わせください。<br>
+        <form>
+          <div class="form-group has-error" style="margin-top:10px;">
+            <label for="name">お名前<span class="label label-danger">必須</span></label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="例) 山田 花子">
+
+          </div>
+          <div class="form-group">
+            <label for="tell">電話番号<span class="label label-danger">必須</span></label>
+            <input type="text" class="form-control" id="tell" placeholder="例) 03-1234-5678">
+          </div>
+          <div class="form-group">
+            <label for="tell">メールアドレス<span class="label label-danger">必須</span></label>
+            <input type="email" class="form-control" id="email" placeholder="例）example@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">予約・問い合わせ内容<span class="label label-danger">必須</span><br>※<span
+                style="color:red;">予約の場合はご希望メニューを必ずご入力ください。</span></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="例) 予約・問い合わせ内容をご記入ください"
+              rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label　for="inlineFormCustomSelect">予約・希望日時<span class="label label-default">任意</span></label>
+            <div class="form-row">
+              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                <option selected>--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <span class="custom-control-description">月</span>
+              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                <option selected>--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <span class="custom-control-description">日</span>
+              <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                <option selected>--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+              </select>
+              <span class="custom-control-description">時</span>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-danger center-block"><span
+              class="glyphicon glyphicon-envelope"></span>メールを送信する　</button>
+        </form>
+      </div>
+      <div class="sidebar container col-sm-4 hidden-xs" style="height:750px; padding-top:10px;">
+        <div class="panel panel-default">
+          <div class="panel-heading">当店について</div>
+          <div class="panel-body">
+            <ul>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#">ビフォー・アフター</a>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#">口コミ・評判</a>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#"> スタッフ紹介</a>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#">メニュー・料金</a>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#">Q＆A</a>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#">地図・アクセス</a>
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-circle-arrow-right"></span>
+                <a href="#">予約・問い合わせ</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">電話で予約・問い合わせ</h3>
+          </div>
+          <div class="panel-body">
+            <p>整体院<p>
+                <div class="thumbnail" style="height:100px; width:100%;">
+                  <img src=#>
+                </div>
+                <button type="button" class="btn btn-danger btn-block"><span
+                    class="glyphicon glyphicon-envelope"></span>予約・問い合わせ</button>
+                <button type="button" class="btn btn-danger btn-block"><span
+                    class="glyphicon glyphicon-earphone"></span>03-####-####</button>
+                <ul>
+                  <li>
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                    <a href="#">埼玉県さいたま市緑区1-1-1</a>
+                  </li>
+                  <li>
+                    <span class="glyphicon glyphicon-send"></span>
+                    <a href="#">JR浦和駅から徒歩15分</a>
+                  </li>
+                  <li>
+                    <span class="glyphicon glyphicon-time"></span>
+                    <a href="#">9:00～12:30/15:30～19:00</a>
+                  </li>
+                  <li>
+                    <span class="glyphicon glyphicon-calendar"></span>
+                    <a href="#">日曜、祝日、土曜午後</a>
+                  </li>
+                  <li>
+                    <span class="glyphicon glyphicon-user"></span></span>
+                    <a href="#">プライバシーポリシー</a>
+                  </li>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="center-block">
+          <button type="button" class="btn btn-danger"><span
+              class="glyphicon glyphicon-envelope"></span>予約・問い合わせ</button>
+          <button type="button" class="btn btn-danger hidden-sm hidden-xs"><span
+              class="glyphicon glyphicon-earphone"></span>03-####-####</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</body>
+
+</html>
